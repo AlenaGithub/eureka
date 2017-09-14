@@ -1,0 +1,18 @@
+--- 
+eureka: 
+  client: 
+    fetch-registry: false
+    register-with-eureka: false
+  server: 
+    enableSelfPreservation: false
+    waitTimeInMsWhenSyncEmpty: 0
+logging: 
+  level: 
+    com: 
+      netflix: 
+        discovery: OFF
+        eureka: OFF
+security:
+  user:
+    name: eureka
+    password: eureka123       
